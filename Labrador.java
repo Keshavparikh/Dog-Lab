@@ -15,6 +15,8 @@ public class Labrador extends Dog
 
     public Labrador(String name,  String color)
     {
+        //didn't call the super constructor. fixed it
+        super(name);
 	this.color = color;
     }
 
@@ -24,6 +26,10 @@ public class Labrador extends Dog
 	return "Labrador barking";
     }
 
+    public void waddle()
+    {
+        System.out.println(name + " is doing a York waddle");
+    }
 
 
 }

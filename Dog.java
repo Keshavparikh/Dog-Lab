@@ -1,30 +1,26 @@
-// ****************************************************************
-// Dog.java
-//
-// A class that holds a dog's name and can make it speak.
-//          
-// ****************************************************************
-public class Dog
+public class Dog extends Animal
 {
     protected String name;
+    @Override
+    public abstract void eat();
+    @Override
+    public void getAge(){
 
-    // ------------------------------------------------------------
-    // Constructor -- store name
-    // ------------------------------------------------------------
+    }
+@Override
+    public void setAge(int age) {
+
+    }
+
     public Dog(String name)
     {
 	this.name = name;
     }
 
-
-    // ------------------------------------------------------------
-    // Returns the dog's name
-    // ------------------------------------------------------------
     public String getName()
     {
 	return name;
     }
-
     // ------------------------------------------------------------
     // Returns a string with the dog's comments
     // ------------------------------------------------------------
