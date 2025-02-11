@@ -12,7 +12,7 @@ public class DogTest
 {
     public static void main(String[] args)
     {
-
+//cant make objects of abstract classes
 	Dog dog = new Dog("Spike");
 	System.out.println(dog.getName() + " says " + dog.bark());
     Labrador doggie = new Labrador("Keshav", "Red");

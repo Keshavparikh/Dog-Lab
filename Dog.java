@@ -1,16 +1,8 @@
-public class Dog extends Animal
+public abstract class Dog extends Animal
 {
     protected String name;
     @Override
     public abstract void eat();
-    @Override
-    public void getAge(){
-
-    }
-@Override
-    public void setAge(int age) {
-
-    }
 
     public Dog(String name)
     {
@@ -30,3 +22,7 @@ public class Dog extends Animal
     }
 
 }
+
+//private final String name;
+
+//private final String name;
