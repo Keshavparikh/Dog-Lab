@@ -18,6 +18,7 @@ public abstract class Dog extends Animal
     // ------------------------------------------------------------
     public String bark()
     {
+//        System.out.println("YOOO");
 	return "Dog barking";
     }
 

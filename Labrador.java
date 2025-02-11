@@ -19,7 +19,10 @@ public class Labrador extends Dog
         super(name);
 	this.color = color;
     }
-
+@Override
+public void eat(){
+    System.out.println(name +" is eating");
+}
     
     public String bark()
     {

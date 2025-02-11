@@ -17,7 +17,10 @@ public class Yorkshire extends Dog
 	this.size = size;
     }
 
-
+    @Override
+    public void eat(){
+        System.out.println(name +" is eating");
+    }
     public void waddle()
     {
         System.out.println(name + " is doing a York waddle");
